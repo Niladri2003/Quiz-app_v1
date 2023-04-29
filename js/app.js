@@ -37,7 +37,9 @@ let correct = 0,
     total = quizData.length;
     console.log(total);
 let questionBox = document.getElementById("questionBox");
-let allInputs = document.querySelectorAll("input[type='radio']")
+let allInputs = document.querySelectorAll("input[type='radio']");
+let radiob=document.getElementsByClassName("col box");
+console.log(radiob);
 const loadQuestion = () => {
     if (total === index) {
         return quizEnd()
